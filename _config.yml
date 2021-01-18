@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Hector Nevarez"
-  avatar : "/assets/images/test.jpg"
+  avatar : "/assets/images/headshot.png"
   bio    : "Aspiring software engineer with a passion for data science and A.I."
   email  : "Hnevarez1285@sdsu.edu"
   links:
