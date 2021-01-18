@@ -3,7 +3,7 @@ permalink: /workshops/
 title: "Workshops"
 ---
 
-# Spring 2020
+# Spring 2021
 The current workshops for this semester are still a work in progress. I will be dropping the workshops here by the clubs first meeting 01/29/21.
 
 # Fall 2020
