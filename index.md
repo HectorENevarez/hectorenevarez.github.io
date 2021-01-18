@@ -11,4 +11,4 @@ author_profile: true
 I am currently looking for a software engineering internship for the summer of 2021. I have strong Python programming abilites and a strong foundation in machine learning. Take a quick look at [my resume](#) for a full breakdown of my skills. If you have any questions you can always contact me through email at <hnevarez1285@sdsu.edu>.
 
 ## Highlights
-In this section I am showcasing projects 
+In this section I am showcasing some of my favorite projects that I have worked on.
