@@ -59,10 +59,8 @@ author:
   name   : "Hector Nevarez"
   avatar : "/assets/images/test.jpg"
   bio    : "Aspiring software engineer with a passion for data science and A.I."
+  email  : "Hnevarez1285@sdsu.edu"
   links:
-    - label: "Email"
-      icon: "fa fa-envelope"
-      url: hnevarez1285@sdsu.edu
     - label: "Linkedin"
       icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/hector-nevarez-799997174/"
