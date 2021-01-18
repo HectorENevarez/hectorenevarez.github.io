@@ -3,10 +3,10 @@ permalink: /workshops/
 title: "Workshops"
 ---
 
-# Spring 2021
+## Spring 2021
 The current workshops for this semester are still a work in progress. I will be dropping the workshops here by the clubs first meeting 01/29/21.
 
-# Fall 2020
+## Fall 2020
 [1. Python Intro](https://hectorenevarez.github.io/AIClubWorkshopsFall20/#workshop-1)<br>
 [2. Python Intermediate](https://hectorenevarez.github.io/AIClubWorkshopsFall20/#workshop-2)<br>
 [3. Data Science: Cleaning Data](https://hectorenevarez.github.io/AIClubWorkshopsFall20/#workshop-3-data-science-1)<br>
