@@ -2,7 +2,7 @@
 permalink: /workshops/
 title: "Workshops"
 ---
-
+This page holds all the workshops I have given for the [SDSU AI Club](https://aiclub.sdsu.edu/).
 ## Spring 2021
 The current workshops for this semester are still a work in progress. I will be dropping the workshops here by the clubs first meeting 01/29/21.
 
