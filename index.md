@@ -15,6 +15,6 @@ In this section I am showcasing some of my favorite projects that I have worked 
 
 #### [Covid-19 Risk Detection](https://github.com/HectorENevarez/Covid-Risk-Detection)
 <p align="center">
-  <img src="https://github.com/HectorENevarez/Covid-Risk-Detection/blob/main/images/outpy.gif" width="500">
+  <img src="images/outpy.gif" width="500">
 </p>
 This application aims to identify whether people in a certain location are following the proper Covid-19 guidelines. Each individual person is tracked and their unique information is stored while they are in frame. The application tracks to see whether everyone is properly social distancing and wearing a face mask. To identify if they are wearing a face mask, a model, trained on 5,000 images I collected, classifies whether the person is wearing a mask or not. For the social distancing, the euclidean distance from each persons centroid marks if two persons are too close together.
