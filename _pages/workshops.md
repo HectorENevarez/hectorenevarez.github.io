@@ -4,7 +4,7 @@ title: "Workshops"
 ---
 This page holds all the workshops I have given for the [SDSU AI Club](https://aiclub.sdsu.edu/).
 ## Spring 2021
-The current workshops for this semester are still a work in progress. I will be dropping the workshops here by the clubs first meeting 01/29/21.
+[1. Python Refresher](https://hectorenevarez.github.io/AIClubWorkshopsSpring21/pythonrefresher/python)
 
 ## Fall 2020
 [1. Python Intro](https://hectorenevarez.github.io/AIClubWorkshopsFall20/#workshop-1)<br>
