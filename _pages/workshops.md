@@ -4,7 +4,9 @@ title: "Workshops"
 ---
 This page holds all the workshops I have given for the [SDSU AI Club](https://aiclub.sdsu.edu/).
 ## Spring 2021
+[Main Website](https://hectorenevarez.github.io/AIClubWorkshopsSpring21/)
 [1. Python Refresher](https://hectorenevarez.github.io/AIClubWorkshopsSpring21/pythonrefresher/python)
+[2. Computer Vision: Object Detection](https://hectorenevarez.github.io/AIClubWorkshopsSpring21/workshop3/ObjectDetection#processing-every-frame)
 
 ## Fall 2020
 [1. Python Intro](https://hectorenevarez.github.io/AIClubWorkshopsFall20/#workshop-1)<br>
