@@ -92,6 +92,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+        # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: true
+      related: true
 
 category_archive:
   type: liquid
