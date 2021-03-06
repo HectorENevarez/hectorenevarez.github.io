@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <div class="grid__wrapper">
-  {% for post in site.posts limit:1 %}
-    {% include archive-single.html type="grid" %}
+  {% for post in site.posts %}
+    {% include archive-single.html %}
   {% endfor %}
 </div>
