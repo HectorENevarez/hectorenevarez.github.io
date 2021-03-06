@@ -8,7 +8,8 @@ excerpt: Neural Networks aren't as complicated as they seem. This post provides 
 categories:
   - Blog
 tagline: "An introduction to Neural Networks"
-teaser: "/../assets/images/artificial-neural-network-3501528_1920.png"
+header:
+  teaser: "/../assets/images/artificial-neural-network-3501528_1920.png"
 tags:
   - Neural Networks
   - Artificial Intelligence
