@@ -4,7 +4,7 @@ main:
   - title: "Workshops"
     url: /workshops/
   - title: "Posts"
-    url: /posts/
+    url: /_posts/
   - title: "CV"
     url: https://hectorenevarez.github.io/AIClubWorkshopsFall20/resume/
    
