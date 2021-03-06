@@ -23,3 +23,9 @@ This post is intended for beginners with no previous experience in artificial in
 **Let's get started!**
 {: .text-center}
 
+## What is a Neural Network?
+```Neural Networks(NN)``` are sets of interconnected neurons that take in a large set of data and aim to discover an underlying pattern. Neural networks are ```loosely inspired``` by how our brains function. Our brains too have a series neurons that are interconnected and transmit information by firing electrical signals.
+
+
+
+
