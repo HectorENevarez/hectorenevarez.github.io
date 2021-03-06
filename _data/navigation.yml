@@ -3,6 +3,8 @@ main:
     url: https://hectorenevarez.github.io/
   - title: "Workshops"
     url: /workshops/
+  - title: "Posts"
+    url: /_pages/
   - title: "CV"
     url: https://hectorenevarez.github.io/AIClubWorkshopsFall20/resume/
    
