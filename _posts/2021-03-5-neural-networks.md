@@ -2,7 +2,7 @@
 title: "A Beginners Guide to Neural Networks"
 last_modified_at: 2016-03-09T16:20:02-05:00
 classes: wide
-excerpt: a comprehensive breakdown of neural networks and how to implement them from scratch in Python
+excerpt: Neural Networks aren't as complicated as they seem. This post provides a comprehensive breakdown of the inner workings of neural networks and implements them from scratch in python.
 categories:
   - Blog
 tagline: "An introduction to Neural Networks"
