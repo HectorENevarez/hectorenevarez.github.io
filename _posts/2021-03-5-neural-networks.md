@@ -33,7 +33,9 @@ Now that you have a high level overview of how neural networks learn, let's dive
 **INSERT IMAGE OF NEURAL NETWORK**
 
 Above, we can see two example images. Both neural networks are composed of 3 types of layers:
-- test
+- **Input Layer**—This is the input of our network where we pass in our data(This could be text, images, sound, etc.) 
+- **Hidden Layer**—
+- **Output Layer**—This can be seen as the results of our network
 
 
 
