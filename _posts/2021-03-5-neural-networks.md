@@ -24,7 +24,18 @@ This post is intended for beginners with no previous experience in artificial in
 {: .text-center}
 
 ## What is a Neural Network?
-```Neural Networks(NN)``` are sets of interconnected neurons that take in a large set of data and aim to discover an underlying pattern. Neural networks are ```loosely inspired``` by how our brains function. Our brains too have a series neurons that are interconnected and transmit information by firing electrical signals.
+```Neural Networks(NN)``` are sets of interconnected neurons that take in a large set of data and aim to discover an underlying pattern. While neural networks don't exactly emulate our biological neural networks, they are ```loosely inspired``` by how our brains learn.
+
+Our brain doesn't learn concepts instantly, it usually takes different iterations of explanations and even trial and error to solidify our understanding of an idea. Imagine if you had no understanding of what cats and dogs were. If I showed you thousands of different pictures of cats and dogs, you would start to form an understanding and eventually you would become more confident in telling me which pictures were cats and which were dogs. While oversimplified, this is the basis of how neural networks learn.
+
+Now that you have a high level overview of how neural networks learn, let's dive deeper and take a look at their structure.
+
+**INSERT IMAGE OF NEURAL NETWORK**
+
+Above, we can see two example images. Both neural networks are composed of 3 types of layers:
+- test
+
+
 
 
 
