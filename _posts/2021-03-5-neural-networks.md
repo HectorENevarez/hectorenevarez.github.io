@@ -43,8 +43,9 @@ Above, we can see two example images. Both neural networks are composed of 3 typ
 ## What is the function of the neuron?
 Each neuron performs a set of mathematical operations to derive an output.
 
-![Nueron](../misc/NeuralNets/Neuron.png){: .align-center}
+![Nueron](../misc/NeuralNets/Neuron.png)
 *Figure 2 — Neuron*{: .align-center}
+
 
 
 
