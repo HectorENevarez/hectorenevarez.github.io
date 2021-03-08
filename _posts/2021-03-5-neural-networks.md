@@ -30,19 +30,21 @@ Our brain doesn't learn concepts instantly, it usually takes different iteration
 
 Now that you have a high level overview of how neural networks learn, let's dive deeper and take a look at their structure.
 
-![Deep Neural Network](../misc/NeuralNets/DNN.png){: .align-center}
+{% include figure image_path="../misc/NeuralNets/DNN.png" alt="Deep Neural Network" caption="Figure 1 — Neural Network" %}{: .align-center}
 
 Above, we can see two example images. Both neural networks are composed of 3 types of layers:
 - **Input Layer**—This is the input of our network where we pass in our data(This could be text, images, sound, etc.) 
 - **Hidden Layer**—This layer falls in between the input and output layers. It does the mapping between the input and output layers by performing a series of mathematical operations
 - **Output Layer**—This can be seen as the results of our network
 
-> The term "deep learning" comes from neural networks with more than 1 hidden layer. These types of neural networks are called deep neural networks. Neural networks with only 1 hidden layer can be referred to as simple neural networks.
+> The term "deep learning" comes from neural networks with more than 1 hidden layer. These types of neural networks are called deep neural networks. Figure 1 is an example of a deep neural network because it has 2 hidden layers. Neural networks with only 1 hidden layer can be referred to as simple neural networks.
 
 ## What is the function of the neuron?
 Each neuron performs a set of mathematical operations to derive an output.
 
-**INSERT IMAGE OF PERCEPTRON**
+{% include figure image_path="../misc/NeuralNets/Neuron.png" alt="Deep Neural Network" caption="Figure 2 — Neuron" %}{: .align-center}
+
+
 
 ## Nueral Networks Process
 Now that we understand what a neural network is, let's take a look at how it actually functions.
