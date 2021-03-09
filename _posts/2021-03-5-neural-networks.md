@@ -53,7 +53,7 @@ Above we summed up every input which consisted of the input multiplied by the we
 
 Furthermore, we also have to add the bias(b) term to transpose the constant value to obtain the output values.
 
-$$x\cdot w + b
+$$x\cdot w + b$$
 
 Finally, to obtain the neurons output value, we have to introduce non-linearity
 
