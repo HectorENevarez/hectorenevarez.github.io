@@ -55,7 +55,35 @@ Above we summed up every input which consisted of the input multiplied by the we
 
 Furthermore, we also have to add the bias term 
 
+\begin{equation}
+\begin{aligned}
+  X_0 \otimes X_1 =  
+  \begin{pmatrix}
+    0\begin{pmatrix} 
+      0 & 1 \\\\\\\\
+      1 & 0
+    \end{pmatrix} & 1\begin{pmatrix}
+                      0 & 1 \\\\\\\\
+                      1 & 0
+                     \end{pmatrix} \\\\\\\\
+    1\begin{pmatrix} 
+      0 & 1 \\\\\\\\
+      1 & 0
+     \end{pmatrix} & 0\begin{pmatrix}
+                       0 & 1 \\\\\\\\
+                       1 & 0
+                      \end{pmatrix} 
+  \end{pmatrix} = 
+  \begin{pmatrix}
+    0 & 0 & 0 & 1 \\\\\\\\
+    0 & 0 & 1 & 0 \\\\\\\\
+    0 & 1 & 0 & 0 \\\\\\\\
+    1 & 0 & 0 & 0 
+  \end{pmatrix}
+\end{aligned}
+\end{equation}
 
+$$ X_0 $$ (works)
 
 
 
