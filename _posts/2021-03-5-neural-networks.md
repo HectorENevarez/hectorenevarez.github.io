@@ -30,8 +30,10 @@ Our brain doesn't learn concepts instantly, it usually takes different iteration
 
 Now that you have a high level overview of how neural networks learn, let's dive deeper and take a look at their structure.
 
+<span style="display:block;text-aligned:center">
 ![Deep Neural Network](../misc/NeuralNets/DNN.png){: .align-center}
 *Figure 1 — Neural Network*
+</span>
 
 Above, we can see two example images. Both neural networks are composed of 3 types of layers:
 - **Input Layer**—This is the input of our network where we pass in our data(This could be text, images, sound, etc.) 
@@ -49,8 +51,6 @@ Each neuron performs a set of mathematical operations to derive an output.
 
 
 
-## Nueral Networks Process
-Now that we understand what a neural network is, let's take a look at how it actually functions.
 
 
 
