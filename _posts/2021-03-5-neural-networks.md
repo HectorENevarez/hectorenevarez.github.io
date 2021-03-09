@@ -46,8 +46,9 @@ Each neuron performs a set of mathematical operations to derive an output.
 
 Above is an example of a randomly selected neuron. Each neuron will have a connection with every neuron in the previous layer. The way each neuron obtains its value is simple. It begins by summing up every input. The input consists of the input value(x) as well as an associated weight(w). When the model is trained, these weights shift around in order to get the optimal model. The weights carry influence as to how strong a connection between two neurons are. The higher the weight the influence of the neuron. 
 
-\\[x ⋅ w = (X_1 x w_1) + (X_2 x w_2) + (X_3 x w_3) + ... + (X_n x w_n)\\]
-<MATH>&int;_a_^b^{f(x)<over>1+x} dx</MATH>
+$$x ⋅ w = (X_1 x w_1) + (X_2 x w_2) + (X_3 x w_3) + ... + (X_n x w_n)$$
+
+$$ e^{i \pi} = -1$$
 
 Above we summed up every input which consisted of the input multiplied by the weight. We can further simplify this as the summation equals the dot product of the vectors x and w.
 
