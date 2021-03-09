@@ -44,8 +44,10 @@ Each neuron performs a set of mathematical operations to derive an output.
 
 ![Nueron](../misc/NeuralNets/Neuron.png){: .align-center}
 
-Above is an example of a randomly selected neuron. Each neuron will have a connection with every neuron in the previous layer. The way each neuron obtains its value is simple. It begins by summing up every input. The input consists of the input value as well as an associated weight. When the model is trained, these weights shift around in order to get the optimal model. The weights carry influence as to how strong a connection between two neurons are. The higher the weight the influence of the neuron. 
-$$ \[ \sum \]$$
+Above is an example of a randomly selected neuron. Each neuron will have a connection with every neuron in the previous layer. The way each neuron obtains its value is simple. It begins by summing up every input. The input consists of the input value(x) as well as an associated weight(w). When the model is trained, these weights shift around in order to get the optimal model. The weights carry influence as to how strong a connection between two neurons are. The higher the weight the influence of the neuron. 
+
+$x ⋅ w = (X_1 x w_1) + (X_2 x w_2) + (X_3 x w_3) + ... + (X_n x w_n)${: .align-center}
+
 
 
 
