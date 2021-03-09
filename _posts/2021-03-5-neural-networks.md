@@ -2,6 +2,7 @@
 title: "A Beginners Guide to Neural Networks"
 last_modified_at: 2016-03-09T16:20:02-05:00
 classes: wide
+mathjax: true
 
 excerpt: Neural Networks aren't as complicated as they seem. This post provides a comprehensive breakdown of neural networks and implements them from scratch in python.
 tagline: "An introduction to Neural Networks"
