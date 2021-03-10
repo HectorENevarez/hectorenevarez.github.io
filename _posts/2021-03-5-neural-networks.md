@@ -57,9 +57,34 @@ $$x\cdot w + b$$
 
 Finally, to obtain the neurons output value, we pass it through an activation function in order to introduce non-linearity into the neurons output. Without the activation function, our neural network is essentially a linear regression model[1]. With the activation function, our model is able to learn more complex tasks. There are several activation functions, but in this post we will be going over the **sigmoid activation function**.
 
-![Sigmoid Function](../misc/NeuralNets/sigmoid.png){: .align-center}
+<img src="../misc/NeuralNets/sigmoid.png" alt="Sigmoid Function" width="500"/>{: .align-center}
+
+To determine the output, the sigmoid activation function looks at the value obtained and the larger the value, the closer it will be to 1. The smaller the value, the closer it will be to 0. This allows us to have output between 0 and 1 with some values carrying more weight than others.
+
 
 $$\frac{1}{1+e^{-z}}$$
+
+Above we can see the sigmoid activation function equation where z is $x\cdot w + b$.
+
+The steps outlined above occur through every neuron in the neueral network until the network reaches its end. This process of passing data through the neural network is called **forward propogation**. Once this process is completed we move on to backpropogation.
+
+## What is backpropogation?
+
+**Back-propagation** fine tunes the model based on the results of forward propogation every iteration. After a forward pass, the neural network calculates the loss function and propogates those results backwards to tune the weights and biases. Since the model is updating its weights and biases every iteration, the model should become more optimized. The goal is to lower this error rate.
+
+> The loss function is highly related to the cost function however, the loss function refers to the error of one training sample, while the cost function is the average of the entire training set[2].
+
+The loss function we'll be looking at is **mean squared error(MSE)**. 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -71,8 +96,8 @@ $$\frac{1}{1+e^{-z}}$$
 
 
 ## References
-[1][Activation functions in Neural Networks](https://www.geeksforgeeks.org/activation-functions-neural-networks/)
-
+[1] [Activation functions in Neural Networks](https://www.geeksforgeeks.org/activation-functions-neural-networks/)
+[2] [A Gentle Introduction To Math Behind Neural Networks](https://towardsdatascience.com/introduction-to-math-behind-neural-networks-e8b60dbbdeba)
 
 
 
