@@ -76,6 +76,12 @@ The steps outlined above occur through every neuron in the neueral network until
 
 The loss function we'll be looking at is **mean squared error(MSE)**. 
 
+$$
+\mathrm{MSE}=\frac{1}{n} \sum_{i=1}^{n}\left(Y_{i}-\hat{Y}_{i}\right)^{2}
+$$
+
+In this case we're taking the average of the sum of our actual value($Y_{i}$) subtracted from our predicted value(\hat{Y}_{i}) 
+
 
 
 
@@ -96,7 +102,7 @@ The loss function we'll be looking at is **mean squared error(MSE)**.
 
 
 ## References
-[1] [Activation functions in Neural Networks](https://www.geeksforgeeks.org/activation-functions-neural-networks/)
+[1] [Activation functions in Neural Networks](https://www.geeksforgeeks.org/activation-functions-neural-networks/)<br>
 [2] [A Gentle Introduction To Math Behind Neural Networks](https://towardsdatascience.com/introduction-to-math-behind-neural-networks-e8b60dbbdeba)
 
 
