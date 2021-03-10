@@ -74,13 +74,15 @@ The steps outlined above occur through every neuron in the neueral network until
 
 > The loss function is highly related to the cost function however, the loss function refers to the error of one training sample, while the cost function is the average of the entire training set[2].
 
-The loss function we'll be looking at is **mean squared error(MSE)**. 
+The cost function we'll be looking at is **mean squared error(MSE)**. 
 
 $$
 \mathrm{MSE}=\frac{1}{n} \sum_{i=1}^{n}\left(Y_{i}-\hat{Y}_{i}\right)^{2}
 $$
 
-In this case we're taking the average of the sum of our actual value($Y_{i}$) subtracted from our predicted value(\hat{Y}_{i}) 
+In this case we're taking the average of the sum of our actual value ($Y_{i}$) subtracted by our predicted value ($\hat{Y}_{i}$) squared. As mentioned above, our cost function is the average of our loss function, so our cost function is the equation above.
+
+The cost function only tells us how wrong our predictions were, we now need to back propagate these results to modify our weights and biases. 
 
 
 
