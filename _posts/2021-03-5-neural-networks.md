@@ -47,7 +47,7 @@ Each neuron performs a set of mathematical operations to derive an output.
 
 Above is an example of a randomly selected neuron. Each neuron will have a connection with every neuron in the previous layer. The way each neuron obtains its value is simple. It begins by summing up every input. The input consists of the input value(x) as well as an associated weight(w). When the model is trained, these weights shift around in order to get the optimal model. The weights carry influence as to how strong a connection between two neurons are. The higher the weight the influence of the neuron. 
 
-$$x\cdot w = (x_1\times w_1) + (x_2\times w_2) + (x_3\times w_3) + ... + (x_n\times w_n)$$
+$$x\cdot w = (x_1\times w_1) + (x_2\times w_2) + ... + (x_n\times w_n)$$
 
 Above we summed up every input which consisted of the input multiplied by the weight. We can further simplify this as the summation equals the dot product of the vectors x and w.
 
@@ -55,7 +55,11 @@ Furthermore, we also have to add the bias(b) term to transpose the constant valu
 
 $$x\cdot w + b$$
 
-Finally, to obtain the neurons output value, we have to introduce non-linearity
+Finally, to obtain the neurons output value, we pass it through an activation function in order to introduce non-linearity into the neurons output. Without the activation function, our neural network is essentially a linear regression model[1]. With the activation function, our model is able to learn more complex tasks. There are several activation functions, but in this post we will be going over the **sigmoid activation function**.
+
+![Sigmoid Function](../misc/NeuralNets/sigmoid.png){: .align-center}
+
+$$\frac{1}{1+e^{-z}}$$
 
 
 
@@ -66,6 +70,8 @@ Finally, to obtain the neurons output value, we have to introduce non-linearity
 
 
 
+## References
+[1][Activation functions in Neural Networks](https://www.geeksforgeeks.org/activation-functions-neural-networks/)
 
 
 
