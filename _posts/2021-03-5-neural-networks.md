@@ -4,7 +4,7 @@ last_modified_at: 2016-03-09T16:20:02-05:00
 classes: wide
 mathjax: true
 
-excerpt: Neural Networks aren't as complicated as they seem. This post provides a comprehensive breakdown of neural networks and implements them from scratch in python.
+excerpt: Neural Networks aren't as complicated as they seem. This post provides a comprehensive breakdown of neural networks 
 tagline: "An introduction to Neural Networks"
 
 header:
@@ -19,7 +19,7 @@ tags:
 
 A foundational piece to learning artificial intelligence is understanding the architecture of neural networks. Many are frightened by the "complexity" of this topic but in fact, neural networks aren't that complicated. This post aims to demystify neural networks by providing an intuitive and comprehensive tutorial on the inner workings of neural networks.
 
-This post is intended for beginners with no previous experience in artificial intelligence but should also provide value to even those who already have a solid background in this field. We'll be going over the inner workings of neural networks as well as programming them from scratch in python.
+This post is intended for beginners with no previous experience in artificial intelligence but should also provide value to even those who already have a solid background in this field. We'll be going over the inner workings of neural networks by explaining its structure step by step.
 
 **Let's get started!**
 {: .text-center}
@@ -55,12 +55,11 @@ Furthermore, we also have to add the bias(b) term to transpose the constant valu
 
 $$x\cdot w + b$$
 
-Finally, to obtain the neurons output value, we pass it through an activation function in order to introduce non-linearity into the neurons output. Without the activation function, our neural network is essentially a linear regression model[1]. With the activation function, our model is able to learn more complex tasks. There are several activation functions, but in this post we will be going over the **sigmoid activation function**.
+Finally, to obtain the neurons output value, we pass it through an activation function in order to introduce non-linearity into the neurons output. Without the activation function, our neural network is essentially a linear regression model. With the activation function, our model is able to learn more complex tasks. There are several activation functions, but in this post we will be going over the **sigmoid activation function**.
 
 <img src="../misc/NeuralNets/sigmoid.png" alt="Sigmoid Function" width="500"/>{: .align-center}
 
 To determine the output, the sigmoid activation function looks at the value obtained and the larger the value, the closer it will be to 1. The smaller the value, the closer it will be to 0. This allows us to have output between 0 and 1 with some values carrying more weight than others.
-
 
 $$\frac{1}{1+e^{-z}}$$
 
@@ -72,9 +71,9 @@ The steps outlined above occur through every neuron in the neueral network until
 
 **Back-propagation** fine tunes the model based on the results of forward propogation every iteration. After a forward pass, the neural network calculates the loss function and propogates those results backwards to tune the weights and biases. Since the model is updating its weights and biases every iteration, the model should become more optimized. The goal is to lower this error rate.
 
-> The loss function is highly related to the cost function however, the loss function refers to the error of one training sample, while the cost function is the average of the entire training set[2].
+> The loss function is highly related to the cost function however, the loss function refers to the error of one training sample, while the cost function is the average of the entire training set.
 
-The cost function we'll be looking at is **mean squared error(MSE)**. 
+an example of a cost function is **mean squared error(MSE)**. 
 
 $$
 \mathrm{MSE}=\frac{1}{n} \sum_{i=1}^{n}\left(Y_{i}-\hat{Y}_{i}\right)^{2}
@@ -82,30 +81,22 @@ $$
 
 In this case we're taking the average of the sum of our actual value ($Y_{i}$) subtracted by our predicted value ($\hat{Y}_{i}$) squared. As mentioned above, our cost function is the average of our loss function, so our cost function is the equation above.
 
-The cost function only tells us how wrong our predictions were, we now need to back propagate these results to modify our weights and biases. 
+The cost function only tells us how wrong our predictions were, we now need to back propagate these results to modify our weights and biases. For this we use an optimizer.
 
+Our optimizer tells use how to change our weights and biases to minimize loss. An example of an optimization algorithm is stochastic gradient descent. 
 
+$$
+w_{1} \leftarrow w_{1}-\eta \frac{\partial L}{\partial w_{1}}
+$$
 
+In this equation $\eta$ is our learning rate. Our learning rate controls how fast or slow our weights get updated. $\frac{\partial L}{\partial w_{1}}$ is the partial derivative of our loss with respect to weights or biases. subtracting our weight or bias from $\eta \frac{\partial L}{\partial w_{1}}$ yields us our updated weight or bias.
 
+This process is applied to all of our weights and biases slowly updating and optimizing our model.
 
+## Now What?
+Congrats, you now understand neural networks! Like I said, neural networks are easy to understand. The best way to continue learning about neural networks is to:
+1. Implement your own simple model using a library such as [TensorFlow](https://www.tensorflow.org/) or [PyTorch](https://pytorch.org/)
+2. Look into different types of neural networks and their applications such as [Convolutional Neural Networks](https://hectorenevarez.github.io/AIClubWorkshopsSpring21/workshop6/CNN)
+3. Read other posts or watch informative videos to solidify your understanding of neural Networks.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## References
-[1] [Activation functions in Neural Networks](https://www.geeksforgeeks.org/activation-functions-neural-networks/)<br>
-[2] [A Gentle Introduction To Math Behind Neural Networks](https://towardsdatascience.com/introduction-to-math-behind-neural-networks-e8b60dbbdeba)
-
-
-
+Thanks for reading, happy learning!
