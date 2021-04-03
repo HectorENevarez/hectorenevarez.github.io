@@ -1,6 +1,6 @@
 ---
 title: "A Beginners Guide to Neural Networks"
-last_modified_at: 2016-03-09T16:20:02-05:00
+last_modified_at: 2021-03-01T16:20:02-05:00
 classes: wide
 mathjax: true
 
@@ -45,11 +45,11 @@ Each neuron performs a set of mathematical operations to derive an output.
 
 ![Nueron](../misc/NeuralNets/Neuron.png){: .align-center}
 
-Above is an example of a randomly selected neuron. Each neuron will have a connection with every neuron in the previous layer. The way each neuron obtains its value is simple. It begins by summing up every input. The input consists of the input value(x) as well as an associated weight(w). When the model is trained, these weights shift around in order to get the optimal model. The weights carry influence as to how strong a connection between two neurons are. The higher the weight the influence of the neuron. 
+Above is an example of a randomly selected neuron. Each neuron will have a connection with every neuron in the previous layer. The way each neuron obtains its value is simple. It begins by summing up every input. The input consists of the input value(x) as well as an associated weight(w). When the model is trained, these weights shift around in order to get the optimal model. The weights carry influence as to how strong a connection between two neurons are. The higher the weight the higher influence of the neuron. 
 
 $$x\cdot w = (x_1\times w_1) + (x_2\times w_2) + ... + (x_n\times w_n)$$
 
-Above we summed up every input which consisted of the input multiplied by the weight. We can further simplify this as the summation equals the dot product of the vectors x and w.
+Above we summed up every input which consisted of the input multiplied by the weight. We can further simplify this summation as the dot product of the vectors x and w.
 
 Furthermore, we also have to add the bias(b) term to transpose the constant value to obtain the output values.
 
@@ -69,7 +69,7 @@ The steps outlined above occur through every neuron in the neueral network until
 
 ## What is backpropogation?
 
-**Back-propagation** fine tunes the model based on the results of forward propogation every iteration. After a forward pass, the neural network calculates the loss function and propogates those results backwards to tune the weights and biases. Since the model is updating its weights and biases every iteration, the model should become more optimized. The goal is to lower this error rate.
+**Backpropagation** fine tunes the model based on the results of forward propogation every iteration. After a forward pass, the neural network calculates the loss function and propogates those results backwards to tune the weights and biases. Since the model is updating its weights and biases every iteration, the model should become more optimized. The goal is to lower this error rate.
 
 > The loss function is highly related to the cost function however, the loss function refers to the error of one training sample, while the cost function is the average of the entire training set.
 
