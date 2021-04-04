@@ -58,8 +58,9 @@ plugins:
 
 author:
   name   : "Hector Nevarez"
+  teaser : /home/hector/Desktop/hectorenevarez.github.io/assets/images/headshot.png
   avatar : "/assets/images/headshot (2).png"
-  bio    : "Software Engineer Intern at ModalAI"
+  bio    : "Software Engineer Intern @ ModalAI with a passion for AI"
   email  : "Hnevarez1285@sdsu.edu"
   links:
     - label: "Linkedin"
