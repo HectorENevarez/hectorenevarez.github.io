@@ -20,7 +20,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   workshops, resume, and other relevant information about myself
 github_username: HectorENevarez
 minimal_mistakes_skin: default
-teaser : /home/hector/Desktop/hectorenevarez.github.io/assets/images/headshot.png
 search: false
 
 # Build settings
