@@ -15,7 +15,7 @@ title: About Me
 
 # Recent Posts
 <div class="grid__wrapper">
-  {% for post in site.related_posts limit:8 %}
+  {% for post in site.posts limit:5 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
