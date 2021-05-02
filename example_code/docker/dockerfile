@@ -1,1 +1,8 @@
-FROM baseImage
+FROM python:3
+
+WORKDIR /home/hector/Desktop/hectorenevarez.github.io/example_code/docker
+COPY ..
+
+RUN pip install numpy
+
+CMD ["python", "./app.py"]
