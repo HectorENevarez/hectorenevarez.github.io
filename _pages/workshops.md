@@ -8,6 +8,11 @@ This page holds all the workshops I have given for the [SDSU AI Club](https://ai
 [1. Python Refresher](https://hectorenevarez.github.io/AIClubWorkshopsSpring21/pythonrefresher/python)<br>
 [2. Computer Vision: Object Detection](https://hectorenevarez.github.io/AIClubWorkshopsSpring21/workshop3/ObjectDetection)<br>
 [3. Computer Vision: Object Tracking](https://hectorenevarez.github.io/AIClubWorkshopsSpring21/workshop4/ObjectTracking)<br>
+[4. Neural Networks](https://hectorenevarez.github.io/AIClubWorkshopsSpring21/workshop5/tensorflowAndNN)<br>
+[5. Convolutional Neural Networks](https://hectorenevarez.github.io/AIClubWorkshopsSpring21/workshop6/CNN)<br>
+[6. Generative Adversial Networks](https://hectorenevarez.github.io/AIClubWorkshopsSpring21/workshop7/GAN)<br>
+[7. Optical Character Recognition](https://hectorenevarez.github.io/AIClubWorkshopsSpring21/workshop8/OCR)<br>
+[8. Facial Landmark Detection](https://hectorenevarez.github.io/AIClubWorkshopsSpring21/Workshop9/DLIB)<br>
 
 ## Fall 2020
 [1. Python Intro](https://hectorenevarez.github.io/AIClubWorkshopsFall20/#workshop-1)<br>
