@@ -2,7 +2,7 @@
 permalink: /workshops/
 title: "Workshops"
 ---
-This page holds all the workshops I have given for the [SDSU AI Club](https://aiclub.sdsu.edu/).
+This page holds all the workshops I have created and presented for the [SDSU AI Club](https://aiclub.sdsu.edu/).
 ## Spring 2021
 [Main Website](https://hectorenevarez.github.io/AIClubWorkshopsSpring21/)<br>
 [1. Python Refresher](https://hectorenevarez.github.io/AIClubWorkshopsSpring21/pythonrefresher/python)<br>
