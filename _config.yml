@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Hector Nevarez"
   avatar : "/assets/images/headshot (2).png"
-  bio    : "Software Engineer Intern @ ModalAI with a passion for AI"
+  bio    : "Software Engineer Intern @ ModalAI with a passion for AI and robotics"
   email  : "Hnevarez1285@sdsu.edu"
   links:
     - label: "Linkedin"
