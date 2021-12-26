@@ -15,7 +15,7 @@ title: About Me
 I enjoy learning and I have found that the best way to learn something new is by teaching it. Every day I push myself to learn something new, whether that be about software engineering or a random interesting fact. 
 
 # Learn to Code!
-I often get asked by others how they can learn to code. I feel that understanding code and software is great for anyone! Whether you're looking to learn to code as a hobby or for a career change, check out the [resources tab](#) I compiled. It contains relevant and recommended resources that are great for beginners looking to learn how to code.
+I often get asked by others how they can learn to code. I feel that understanding code and software is great for anyone! Whether you're looking to learn how to code as a hobby or for a career change, check out the [resources tab](https://hectorenevarez.github.io/resources/) I compiled. It contains relevant and recommended resources that are great for beginners looking to learn how to code.
 
 Also, I like to occasionally write blog posts regarding concepts/technologies that I'm learning or interested in. I hope to share what I learn with others in an easy-to-understand digestible blog post. Check out some of my recent posts in the section below, you might learn something!
 
