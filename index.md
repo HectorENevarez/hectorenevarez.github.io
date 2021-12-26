@@ -10,12 +10,16 @@ entries_layout: grid
 title: About Me
 ---
 
-**Hello World!** My name is Hector and I am currently a fourth year student studying computer science at San Diego State University. I enjoy learning and I have found that the best way to learn something new is by teaching it. I apply this principle by giving [weekly workshops](https://hectorenevarez.github.io/workshops/) through [SDSU's AI Club](https://aiclub.sdsu.edu/). Every day I push myself to learn something new, whether that be about machine learning, software engineering, or a random interesting fact.
+**Hello World!** My name is Hector and I am a Embedded Robotics Software Engineer at [ModalAI](https://www.modalai.com/), where I have worked on all sorts of different tech stacks from building system images and developing device drivers to autonomy features for drones. I am adept at coding in C/C++, Python, and shell scripting. I have a strong understanding of the linux operating system and i'm experienced with tools such as TensorFlow, Docker, and OpenCV.
 
-I currently work as a Software Engineer at [ModalAI](https://www.modalai.com/) where I have worked on all sorts of different tech stacks from low level device drivers to autonomy features for drones. I am adept at coding in C/C++, Python, and shell scripting. I have a strong understanding of the linux operating system and i'm experienced with tools such as TensorFlow, Docker, and GStreamer. I posses strong communication and collaboration skills, critical thinking and reasoning abilities, and i'm quick learner.
+I enjoy learning and I have found that the best way to learn something new is by teaching it. Every day I push myself to learn something new, whether that be about software engineering or a random interesting fact. 
 
-# Recent Posts
-I like to occasionally write blog posts regarding concepts/technologies that I'm learning or interested in. I hope to share what I learn with others in an easy-to-understand digestible blog post. Check out some of my recent posts, you might learn something!
+# Learn to Code!
+I often get asked by others how they can learn to code. I feel that understanding code and software is great for anyone! Whether you're looking to learn to code as a hobby or for a career change, check out the [resources tab](#) I compiled. It contains relevant and recommended resources that are great for beginners looking to learn how to code.
+
+Also, I like to occasionally write blog posts regarding concepts/technologies that I'm learning or interested in. I hope to share what I learn with others in an easy-to-understand digestible blog post. Check out some of my recent posts in the section below, you might learn something!
+
+# Recent Blog Posts
 
 <div class="grid__wrapper">
   {% for post in site.posts limit:5 %}
