@@ -48,7 +48,8 @@ jobs:
           npm install postcss -D
           npm install -g postcss-cli
           npm install -g autoprefixer
-          npm i -D @fullhuman/postcss-purgecss postcss
+          npm install -D @fullhuman/postcss-purgecss postcss
+          npm install -D postcss-import
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
