@@ -8,7 +8,7 @@ theme = "showfolio"
   description = "Modern portfolio theme for your Hugo site."
   author = "John Doe"
   authorEmail = "eglen.neva@gmail.com"
-  authorImage = "/headshot.jpg"
+  authorImage = "static/headshot.jpg"
   autoDarkMode = true
 
   copyright = "Copyright © 2022 - Hector Nevarez · All rights reserved"
@@ -21,8 +21,8 @@ theme = "showfolio"
   contact = "eglen.neva@gmail.com"
 
 [params.homepage.social]
-  linkedin = "https://linkedin.com/in/"
-  github = "https://github.com/"
+  linkedin = "https://www.linkedin.com/in/hector-nevarez-799997174/"
+  github = "https://github.com/HectorENevarez"
 
 [build]
   writeStats = true
