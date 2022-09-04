@@ -1,4 +1,33 @@
-baseURL = "https://hectorenevarez.github.io/"
+baseURL = "https://hnevarez.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Hector Nevarez' personal site"
 theme = "showfolio"
+
+[params]
+  name = "Showfolio Theme"
+  description = "Modern portfolio theme for your Hugo site."
+  author = "John Doe"
+  authorEmail = "eglen.neva@gmail.com"
+  authorImage = "/headshot.jpg"
+  autoDarkMode = true
+
+  copyright = "Copyright © 2022 - Hector Nevarez · All rights reserved"
+  favicon = "favicon.ico"
+
+[params.homepage]
+  title = "Hello world, I'm Hector Nevarez"
+  tagline = "Software Engineer @ ModalAI"
+  description = "Embedded robotics software engineer with a passion for A.I. and robotics"
+  contact = "eglen.neva@gmail.com"
+
+[params.homepage.social]
+  linkedin = "https://linkedin.com/in/"
+  github = "https://github.com/"
+
+[build]
+  writeStats = true
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
