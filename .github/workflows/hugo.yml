@@ -45,6 +45,7 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Install dependencies
         run: |
+          npm install postcss -D
           npm install -g postcss-cli
           npm install -g autoprefixer
       - name: Build with Hugo
