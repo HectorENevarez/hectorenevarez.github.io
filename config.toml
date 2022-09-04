@@ -1,14 +1,14 @@
 baseURL = "https://hnevarez.com"
 languageCode = "en-us"
-title = "Hector Nevarez' personal site"
+title = "Hector Nevarez"
 theme = "showfolio"
 
 [params]
   name = "Showfolio Theme"
   description = "Modern portfolio theme for your Hugo site."
-  author = "John Doe"
+  author = "Hector Nevarez"
   authorEmail = "eglen.neva@gmail.com"
-  authorImage = "static/headshot.jpg"
+  authorImage = "headshot.jpg"
   autoDarkMode = true
 
   copyright = "Copyright © 2022 - Hector Nevarez · All rights reserved"
@@ -18,7 +18,7 @@ theme = "showfolio"
   title = "Hello world, I'm Hector Nevarez"
   tagline = "Software Engineer @ ModalAI"
   description = "Embedded robotics software engineer with a passion for A.I. and robotics"
-  contact = "eglen.neva@gmail.com"
+  contact = "mailto:eglen.neva@gmail.com"
 
 [params.homepage.social]
   linkedin = "https://www.linkedin.com/in/hector-nevarez-799997174/"
