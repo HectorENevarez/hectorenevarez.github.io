@@ -1,4 +1,4 @@
 ---
-author: John Doe
+author: Hector Nevarez
 title: Blog
 ---
