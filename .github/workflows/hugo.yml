@@ -30,7 +30,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.102.3
+      HUGO_VERSION: 0.68.3
     steps:
       - name: Install Hugo CLI
         run: |
@@ -45,13 +45,10 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Install dependencies
         run: |
-          npm install postcss -D
-          npm install -g postcss-cli
-          npm install -g autoprefixer
-          npm install -D @fullhuman/postcss-purgecss postcss
-          npm install -D postcss-import
-          npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
-          npm install @tailwindcss/typography
+          ls
+          npm install
+          npm -i -g postcss-cli
+
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
