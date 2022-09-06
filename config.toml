@@ -9,20 +9,30 @@ theme = "showfolio"
   author = "Hector Nevarez"
   authorEmail = "eglen.neva@gmail.com"
   authorImage = "headshot.jpg"
-  autoDarkMode = true
+  DarkMode = true
+
+  postSummariesFrontPage = 6
+  mainSections = ["blog"]
 
   copyright = "Copyright © 2022 - Hector Nevarez · All rights reserved"
   favicon = "favicon.ico"
 
 [params.homepage]
-  title = "Hello world, I'm Hector Nevarez"
-  tagline = "Software Engineer @ ModalAI"
+  title = "Hector Nevarez"
+  tagline = "Software Engineer @"
+  company = "ModalAI"
   description = "Embedded robotics software engineer with a passion for A.I. and robotics"
   contact = "mailto:eglen.neva@gmail.com"
 
 [params.homepage.social]
   linkedin = "https://www.linkedin.com/in/hector-nevarez-799997174/"
   github = "https://github.com/HectorENevarez"
+
+[params.blogs]
+  blogPosts = [
+              "/beginners-guide-to-neural-networks/" ,
+              "fsdf"
+              ]
 
 [build]
   writeStats = true
@@ -31,3 +41,16 @@ theme = "showfolio"
 [markup]
   [markup.highlight]
     style = "dracula"
+
+[[menu.main]]
+  name ="Home"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  name = "Whoami"
+  url = "/whoami/"
+  weight = 2
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 3

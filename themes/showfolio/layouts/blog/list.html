@@ -1,25 +1,54 @@
 {{ define "main" }}
 <article class="max-w-5xl mx-auto px-4">
   <h1 class="text-4xl font-bold mb-4">{{ .Title }}</h1>
-  <div class="text-gray-600">{{ .Content }}</div>
-
+  <div class="text-xl mb-2">{{ .Content }}</div>
   <div class="card-list">
     {{ range .Data.Pages -}}
-    <a class="block my-6" href="{{ .RelPermalink }}">
-      {{ $img := .Params.featured_image }}
-      {{ $title := .Params.title }}
-      {{ with $img }}
-      <img class="rounded max-w-full mb-4" src="{{ . }}" alt="{{ $title }}" />
-      {{ end }}
-      <h2 class="text-xl font-semibold mb-1">{{ $title }}</h2>
-      <p class="font-light mb-2 text-gray-500 text-sm">
-        {{ .Params.date.Format "January 2, 2006" }}
-      </p>
-      <div class="font-light text-gray-800 dark:text-gray-200">
-        {{ .Summary }}
+    {{ $author := .Params.author }}
+    {{ $excerpt := .Params.excerpt }}
+    {{ $date_published := .Params.data_published }}
+    {{ $featured_image := .Params.featured_image }}
+    {{ $author_headshot := .Params.author_headshot }}
+
+    {{ $headshot := .Params.headshot }}
+    {{ $title := .Params.title }}
+    <a href="{{ .RelPermalink }}">
+      <div class="p-10">
+        <div class=" w-full lg:max-w-full lg:flex">
+
+          {{/*  Author Meta  */}}
+          {{ with $featured_image }}
+          <div  title="feature">
+            <img class="h-48 w-48 flex-none border-b border-r border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-cover rounded-l-lg text-center overflow-hidden bg-white" src="{{ . }}" alt="{{ $author }}">
+          </div>
+          {{ end }}
+
+          {{/*  Card  */}}
+          <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+            
+            {{/*  Card Content  */}}
+            <div class="mb-8">
+              <div class="text-gray-900 font-bold text-xl mb-2">{{ $title }}</div>
+              <p class="text-gray-700 text-base">{{ $excerpt }}</p>
+            </div>
+
+            {{/*  Author Meta  */}}
+            <div class="flex items-center">
+              {{ with $author_headshot }}
+              <img class="w-10 h-10 rounded-full mr-4" src="{{ . }}" alt="{{ $author }}">
+              {{ end }}
+              <div class="text-sm">
+                <p class="text-gray-900 leading-none">{{ $author }}</p>
+                <p class="text-gray-600">{{ $date_published }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </a>
+
     {{ end -}}
   </div>
+
 </article>
 {{ end }}

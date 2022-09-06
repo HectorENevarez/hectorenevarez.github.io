@@ -37,4 +37,11 @@
     }
   </script>
   {{ end }}
+
+  {{ if .Site.Params.DarkMode }}
+  <script>
+    // Permanent dark mode
+    document.documentElement.classList.add("dark");
+  </script>
+  {{ end }}
 </head>
