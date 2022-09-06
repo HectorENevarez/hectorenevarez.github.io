@@ -47,7 +47,7 @@ jobs:
         run: |
           ls
           npm install
-          npm -i -g postcss-cli
+          npm i -g postcss-cli
 
       - name: Build with Hugo
         env:

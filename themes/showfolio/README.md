@@ -104,3 +104,11 @@ Contributions are welcome. For major changes, please open an issue first to disc
 ## License
 
 Licensed under [MIT](LICENSE)
+
+          npm install postcss -D
+          npm install -g postcss-cli
+          npm install -g autoprefixer
+          npm install -D @fullhuman/postcss-purgecss postcss
+          npm install -D postcss-import
+          npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+          npm install @tailwindcss/typography

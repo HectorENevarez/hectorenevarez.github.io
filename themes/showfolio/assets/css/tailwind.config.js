@@ -15,6 +15,11 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      colors: {
+        'cadmium-green': '#2E6837',
+        'isabelline': '#F7F4F3',
+        'munsell-blue': '#258EA6',
+      },
       typography: (theme) => ({
         dark: {
           css: [
