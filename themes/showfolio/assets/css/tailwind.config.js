@@ -20,6 +20,9 @@ module.exports = {
         'isabelline': '#F7F4F3',
         'munsell-blue': '#258EA6',
       },
+      height: {
+        'section' : '65vh',
+      },
       typography: (theme) => ({
         dark: {
           css: [
