@@ -22,6 +22,7 @@ module.exports = {
       },
       height: {
         'section' : '65vh',
+        'section_small' : '150vh',
       },
       typography: (theme) => ({
         dark: {

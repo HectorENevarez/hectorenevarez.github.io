@@ -47,10 +47,11 @@ theme = "showfolio"
   name ="Home"
   url = "/"
   weight = 1
-[[menu.main_wip]]
+[[menu.main]]
   name = "Whoami"
-  url = "/whoami/"
+  url = "/#whoami"
   weight = 2
+  
 [[menu.main_wip]]
   name = "Blog"
   url = "/blog/"
