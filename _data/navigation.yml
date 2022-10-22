@@ -5,6 +5,5 @@ main:
     url: /posts/
   - title: "Resources"
     url: /resources/
-  - title: "CV"
-    url: https://hectorenevarez.github.io/resume/Resume
-   
+#   - title: "CV"
+#     url: https://hectorenevarez.github.io/resume/Resume
