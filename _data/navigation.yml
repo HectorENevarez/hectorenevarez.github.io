@@ -1,0 +1,10 @@
+main:
+  - title: "Home"
+    url: https://hectorenevarez.github.io/
+  - title: "Posts"
+    url: /posts/
+  - title: "Resources"
+    url: /resources/
+  - title: "CV"
+    url: https://hectorenevarez.github.io/resume/Resume
+   
